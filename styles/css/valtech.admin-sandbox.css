@@ -1,0 +1,55 @@
+.holder {
+    width: 16rem;
+    background-color: red;
+    animation: holder 2s ease-in;
+    /* transform: rotateZ(0); */
+}
+
+.button {
+    background-color: #d22727;
+    color: rgb(241, 176, 9);
+    font-weight: 800;
+    font-size: larger;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    transition: all 0.2s ease;
+
+}
+
+.button:hover {
+    background-color: #d22727da;
+    box-shadow: 1px grey;
+
+}
+
+.button:active {
+    border: 0.5rem solid #a52323;
+
+}
+
+.container {
+    animation: showCard 2s ease-in;
+    /* transform: scale(0) */
+}
+
+@keyframes holder {
+    0% {
+        transform: rotateZ(0deg)
+    }
+
+    100% {
+        transform: rotateZ(720deg)
+    }
+}
+
+@keyframes showCard {
+    0% {
+        transform: scale(0) rotateZ(0deg);
+
+    }
+
+    100% {
+        transform: scale(1) rotateZ(360deg);
+    }
+}

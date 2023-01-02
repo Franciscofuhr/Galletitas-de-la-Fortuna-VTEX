@@ -1,0 +1,16 @@
+{
+    "store.custom#fortune-cookies": {
+        "children": [
+            "image#demo",
+            "tpVtex"
+        ]
+    },
+    "image#demo": {
+        "props": {
+            "src": "https://valtech.vteximg.com.br/arquivos/bannerChinese.png",
+            "maxHeight": "",
+            "maxWidth": "",
+            "blockClass": "bannerCookie"
+        }
+    }
+}
